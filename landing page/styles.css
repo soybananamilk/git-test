@@ -4,11 +4,12 @@
 }
 
 .header{
-    color: white;
+    color: #F9FAF8;
     background-color: rgb(50, 50 ,131);
 }
 .header-logo{
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-top{
@@ -16,22 +17,24 @@
    justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 20px;
 }
 
 ul{
     display: flex;
     list-style: none;
+    gap: 20px;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 .title {
     font-size: 48px;
     font-weight: extra-bold;
-    color: white;
+    color: #F9FAF8;
 }
 
 .subtitle{
@@ -43,8 +46,6 @@ a{
     display: flex;
     margin: 100px;
 }
-
-
 
 img{
     max-height: 200px;
