@@ -90,3 +90,22 @@ button{
     margin: 50px;
     text-align: center;
 }
+
+.section-three{
+    background-color: #e5e7eB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
