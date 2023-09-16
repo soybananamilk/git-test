@@ -1,6 +1,7 @@
 *{
     padding: 0 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header{
@@ -35,11 +36,13 @@ a{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    max-width: 444px;
 }
 
 .subtitle{
     font-size: 18px;
     color: #e5e7eB;
+    max-width: 444px;
 }
 
 .header-body{
@@ -49,4 +52,41 @@ a{
 
 img{
     max-height: 200px;
+    margin-left: 44px;
+}
+
+button{
+    background-color: #3002f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin:  50px;
+}
+
+.boxes{
+    color: #e5e7eB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px 200px 200px;
+    gap:40px;
+    justify-content: center;
+}
+
+.square{
+   width: 100px;
+   height: 100px;
+   border: 5px solid #3882F6;
+   border-radius: 10px;
+}
+
+.section-two{
+    margin: 50px;
+    text-align: center;
 }
